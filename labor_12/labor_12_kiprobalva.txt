@@ -1,0 +1,22 @@
+1.
+e mod: 20%    1/(780*10^-6)  kHz
+            5.20   V
+       50%         kHz
+            V
+       80%        kHz
+            V
+
+b mod: 20%      kHz
+            V
+       50%     kHz
+            V
+       80%     kHz   V
+
+2.
+ if (encoder_position_act < CEL){
+		  set_speed_percent= 50;
+	  }
+	  else
+	  {
+		  set_speed_percent= 0;
+	  }
